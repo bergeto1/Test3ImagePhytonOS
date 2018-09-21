@@ -5,8 +5,8 @@ From:tensorflow/tensorflow:nightly-gpu-py3
 #---------------------------------------------------------------------
 %environment
 #---------------------------------------------------------------------
-#export PATH=/bin:/usr/bin:/usr/local/bin:/usr/local/cuda/bin:
-#export LC_ALL=C
+export PATH=/bin:/usr/bin:/usr/local/bin:/usr/local/cuda/bin:
+export LC_ALL=C
 
 #---------------------------------------------------------------------
 %post
